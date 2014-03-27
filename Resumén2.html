@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title> Resúmen HTML</title>
+            
+        
+       <style type="text/css">
+          
+          <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+          
+           @import url(http://fonts.googleapis.com/css?family=Courgette);  
+           
+           body{
+               
+              background-image:url(http://st.gdefon.com/wallpapers_original/wallpapers/80726_belyj_sinij_klyaksy_2818x1767_www.GdeFon.ru.jpg);
+              background-attachment: fixed;
+              background-repeat: no-repeat;
+              background-position:50%50%;
+              font-family: 'Courgette', cursive;  
+              } 
+             
+        
+         div{
+             
+             color:#121212;
+             font-family: 'Courgette', cursive;
+             font-size:18px;
+             border: 1px solid black;
+             align-self: :"center";
+             margin:0 auto;
+              
+             } 
+        
+          #contenedor{
+              
+             width:1000px;
+             height:auto;
+             text-align: left;
+             border: 1px solid black;
+             background-color: #2a6d84;
+              
+          }
+           #cabezote{
+            
+            width: 400px;
+            height: 100px;
+            margin: 0px;
+            padding: 0px;
+            border: 1px solid black;
+            background-color: lightgray; 
+            align-self: center;
+            font-family: 'Courgette', cursive; 
+           }
+           
+           #menu{
+           
+            width: 200px;
+            padding: 10px;
+            float: left;
+            Background-color:lightblue; 
+            font-family: 'Courgette', cursive;  
+                }
+            
+           #contenido{
+          
+              margin-left: 225px;
+              font-family: 'Courgette', cursive;
+                    }
+           
+           
+           #pie{
+               Background-color:turquoise;
+               clear: both;|
+               float: inherit; 
+               font-family: 'Courgette', cursive;
+               }
+           
+           
+           
+         h1{
+             color: #f7f4f4;
+             background-color:#173141;
+             font-family: 'Courgette', cursive;
+           
+
+             font-style: italic;
+             font-weight:bold; 
+             font-size:20px;
+             
+           } 
+           
+           
+         p{  color: #f2f2f2;
+             background-color:#121211;
+             font-family: 'Courgette', cursive;
+             font-style: normal;
+             font-weight: lighter; 
+             font-size:20px;
+             text-align: center;
+          }
+        </style> 
+     
+        
+        
+    </head>
+      <body>
+          
+          
+          <div id="contenedor">
+          
+          
+             <div id="cabezote"><h1><center>INTRODUCCIÓN HTML5-PROGRAMACIÓN DE PAGINAS WEB</center></h1></div>
+              
+           
+               <div id="menu">
+              
+              <ol>
+                  <li>Definiciones</li>
+                <ul>
+                   <li>HTML</li>
+                    <li>Elementos de html</li>
+                    <li>Las etiquetas</li>
+                    <li>Atributo</li>
+                    <li>La cabecera y el cuerpo</li>
+                    <li>Los encabezados</li>
+                    <li>Imagen</li>
+                    <li>Hipervinculos</li>
+                             
+                 </ul>
+                   <li>Más cosas para estructurar un sitio web</li>
+                 <ul>
+                    <li>Indentación</li>
+                    <li>Comentarios</li>
+                    <li>Listas Ordenadas</li>
+                    <li>Listas Desordenadas</li>
+                     <li>Anidadas o listas dentro de listas</li>
+                  </ul>
+                   <li>Como hacer el texto más llamativo</li>
+                   <li>Tablas</li>
+                   <li>Divisiones</li>
+               </ol> </div>
+              
+                          
+              <div id="contenido">
+              
+              <h2>Definiciones</h2>
+                <dl>
+                    <dt> <strong>HTML</strong></dt>
+                    <dd>Esqueleto que le da la estructura a cada pagina web. Tiene su propia sintaxis
+                        HTML es la abreviatura de "HyperText Mark-up Language", es decir, "Lenguaje de marcado hipertextual"
+                    </dd>
+                 <strong>Los elementos:</strong></dt>
+                     <dd>Proporcionan la estructura al documento HTML e indican al navegador cómo desea que se presente su sitio web. Por lo general, los elementos están formados por una etiqueta de inicio, el contenido, y una etiqueta de cierre.</dd>
+                      <dt><strong>Las etiquetas</strong></dt>
+                      <dd>Son marcas que se usan para señalar el inicio y el fin de un elemento.
+                         <br> Todas las etiquetas comparten el mismo formato: empiezan con el signo menor que "<" y terminan con el signo mayor que ">".
+                   Por lo general, hay dos tipos de etiquetas: la etiquetas de inicio, por ejemplo, <html>, y las etiquetas de cierre, por ejemplo, </html>. La única diferencia entre la etiqueta de inicio y la de cierre es la barra oblicua "/". El contenido queda etiquetado al colocarlo entre una etiqueta de inicio y una etiqueta de cierre.</br> </dd>
+                    <dt><strong>Atributo</strong></dt>
+                    <dd>En algunos elementos se puede añadir más información. Esa información extra se denomina atributo.
+                        Los atributos se incluyen siempre dentro de la etiqueta de inicio y llevan inmediatamente detrás el signo de igual ("=") con los valores de dichos atributos entre comillas (""). El punto y coma que sigue al atributo se usa para separar los diferentes comandos de estilo.  </dd>
+                  <dt><strong>La cabecera y el cuerpo</strong></dt>
+          <dd>Información importante
+                        <ol>
+                        <li>Head: Cabecera</li>
+                        <li>Title: Titulo</li>
+                        <li>Body:Cuerpo</li>
+                        <li>P: Parrafo</li>
+                        </ol>    
+                       </dd>
+                    <dt><strong>Los encabezados</strong></dt> 
+                       <dd>Nivel de importancia.Jeraquías
+                           <ul>
+                           <li>h1:Texto <h1>Muy grande</h1></li>
+                           <li>h2:Texto <h2>grande</h2></li>
+                           <li>h3:Texto algo <h3>más grande de lo normal</h3></li>
+                           <li>h4:Texto <h4>normal</h4></li>
+                           <li>h5:Texto <h5>pequeño</h5></li>
+                           <li>h6:Texto <h6>muy pequeño</h6></li>           
+                           </ul>
+                      </dd>
+                       <dt><strong><center>Imagen</center></strong></dt>
+                       <dd><center>Para tenerlas en la pagina usamos img src="dirección web"/img entre signos de mayor y menor que</center>
+                           <br>Ejemplo: <center><img src="http://formaciononline.co/wp-content/uploads/2013/06/Curso-gratis-online-de-HTML5.jpg"></center></img></dd></br>
+                       </dd>
+                       <dt><strong><center>Hipervinculos</center></strong></dt>
+                       <dd> Es un enlace, normalmente entre dos páginas web de un mismo sitio, pero un enlace también puede apuntar a una página de otro sitio web, a un fichero, a una imagen, etc. Para navegar al destino al que apunta el enlace, hemos de hacer clic sobre él. También se conocen como hiperenlaces, enlaces o links.
+Para lograr un enlace en una pagina web se utiliza (a) y href: referencia- hipertexto
+Los resultados serían algo así para enlace de texto:
+                <br><center><a href="http://www.deciencias.net/disenoweb/elaborardw/paginas/hipervinculos.htm">Información detallada de Hipervinculo</center></a></br>
+                 <br><center>Enlace de Imagen</center></br>
+                <br><center><a href="http://es.wikipedia.org/wiki/HTML5"><img src="http://2.bp.blogspot.com/-QHKBva4lEfU/T9kPZc-_AbI/AAAAAAAALaM/pCbcV-yLvs4/s640/conectividad.jpg"></img></a></center><br>           
+                </dd>
+                </dl>
+               
+           <p>
+            <h2><center>Más cosas para estructurar mejor un sitio web</center></h2>
+            <br><em>Indentación</em></br>
+            <br>Es importante un espaciado hacia la derecha para deferenciar un elemento de otro, para ordenar y sea más fácil revisar en caso de errores como los cierres de etiquetas que no permitirían una correcta visualización en los navegadores.</br> 
+            <br><em>Comentarios</em></br>
+            <br>Para que solo se vean en la estructura por si alguién va a corregir o completar la programación, para que sea más fácil leerlo.
+                un comentario va entre mayor que, seguida de un signo de admiración, 2 guiones al centro, comentario y antes de la etiqueta de cierre otros dos guiones al centro</br>
+            <!--Este es mi segundo párrafo-->
+            <dl>
+               
+                <dt><Strong>Listas Ordenadas</Strong></dt>
+                 <dd>Es una lista numerada y utilizamos ol y se cierra con /ol entre <>. Para escribir cada uno de los items de la lista utilizamos li y /li</dd>
+                <br>El resultado sería algo así:</br>
+                     <ol> <em>Ranking de países latinoamericanos con más turistas en 2013</em>
+                         <li>Brasil</li>
+                         <li>Argentina</li>
+                         <li>Costa Rica</li>
+                         <li>Chile</li>
+                         <li>Perú</li>  
+                    </ol> 
+                
+
+
+
+<br>
+                <dt><Strong>Listas Desordenadas</Strong></dt>         
+                    <dd>Es una lista con viñetas y se utiliza ul y se cierra con /ul entre <>.Igual que en las listas ordenadas los items van entre li y /li.</dd>
+             <br>El resultado sería este:</br>
+                    <ul> <em>Aspectos tenidos en cuenta para catalogar lugares turisticos:</em>
+                          <li>Número de atractivos turísticos</li>
+                          <li>Calidad de vida</li>
+                          <li>Seguridad</li>
+                          <li>Infraestructura turística</li>
+                          <li>Vías de acceso</li>
+                    </ul>
+</br>   
+                   
+
+                <dt><strong>Anidados o Listas dentro de listas</strong></dt>    
+                 <dd>Se pueden mezclar los diferentes tipos de listas, eso sí recordando siempre ir cerrando lo último que se hace y que tenga sentido. Un ejemplo sería: ol entre <>, li entre <>, luego /li entre <>,ul y sus items necesarios, cierro ul y finalmente ol.</dd>
+<br>Ejemplo:</br>
+          <ol><em>Países Suramericanos</em>
+                  <li>Colombia</li>
+                      <ul><em>Principales Ciudades</em>
+                          <li>Bogotá</li>
+                          <li>Barranquilla</li>
+                          <li>Cali</li>
+                          <li>Medellín</li>
+                      </ul>
+                   <li>Perú</li>
+                       <ul><em>Principales Departamentos</em>
+                           <li>Lima</li>
+                           <li>Arequipa</li>
+                           <li>Cajamarca</li>
+                           <li>Loreto</li>
+                           <li>Ica</li>
+                       </ul>
+          </ol>        
+            <dt><strong>Como hacer el texto más llamativo:</strong></dt> 
+                       <br><em>Se utiliza la etiqueta STYLE</em></br>
+                        <br>Con los más variados atributos:</br>
+                        <ul> 
+                            <li style="font-size:50px">font-size: Tamaño</li>
+                            <li style="font-family:cursive">font-family:Fuente</li>
+                            <li style="background-color:turquoise">Background-color: color de fondo</li>
+                            <li style="color:purple">Color</li>
+                            <li style="font-weight:bold">font-weight:peso</li>
+                            <li style="letter-spacing:20px">letter-spacing:Espacio entre letras</li>
+                            <li style="word-spacing:40px">word-spacing:Espacio entre palabras</li>
+                            <li style="text-transform:capitalize">text-transform:Transformar</li>
+                            <li style="font-style:italic">font-style:Enfasís</li>
+                            <li style="text-align:center">text-align: alinear a</li>
+                            <li style="text-decoration:underline">text-decoration:Decoración</li> 
+                       </ul>
+                      <dt><strong>Tablas</strong></dt> 
+                          <dd>Datos Tabulares: Información ordenada en filas y columnas.<>table y /table
+                              <ul>
+                                  <li>Fila de tabla (tr) (/tr)</li>
+                                  <li>Datos de tabla (td)(/td)</li>
+                                  <li>Cabecera de tabla: Información de la tabla (thead) (/thead)</li>
+                                  <li>Datos para cabecera: (th) (/th)</li>
+                                  <li>Cuerpo de tabla:Datos tabulares de la tabla (tbody) (/tbody)</li>
+                              </ul>    
+                     <dt><strong>Otros apectos para mejorar las tablas</strong></dt>            
+                             <ul> 
+                                 <li>Para que el título cubra todo el ancho superior de la tabla:(th colspan"#columnas")</li>
+                                 <li>Borde de tabla: (table border="px")</li>
+                                 <li>Ejemplo: De tabla</li>
+                    <table>
+                            <table border="3px">
+                                <thead>
+                                    <th colspan="5">Las películas más taquilleras en 2014</th>
+                                </thead>
+                                       <tbody>    
+                                              <tr>
+                                               <td>El nacimiento de un imperio</td>   
+                                               <td>Las Aventuras de Peabody y Sherman</td>
+                                               <td>Need for Speed</td>fantasy
+                                               <td>Sin escalas</td>
+                                               <td>Ladrona de libros</td>
+                                             </tr>
+                                                   <tr>
+                                                       <td>130.070 espectadores</td>
+                                                       <td>97.623 espectadores</</td>
+                                                       <td>81.887 espectadores</td>
+                                                       <td>62.066 espectadores</td>
+                                                       <td>25.482 espectadores</td>
+                                                  </tr>
+                                        </tbody>
+                    </table>  
+                            </ul>
+                    <dt><em>Dividir página en contenedores diferentes</em></dt>    
+                         <br></br> (div) (/div) y dentro de ella también se puede definir style: width:ancho en px, height:alto px, background- color:fondo...otros
+                          <br>Y para el estilo de partes pequeñas de la página se usa (span) (/span) </br>
+                   </dl>
+                    </p></div>
+       
+                <div id="pie">
+             <p>Bueno esta es una breve descripción del manejo de HTML, en forma básica lo ideal es ampliar los conceptos y poder estructurar lo mejor posible y así mostrar de manera más atractiva los contenidos del sitio web y eso se logra implementando una hoja de estilo CSS.Grazie!!!</p>
+                      
+                  </div>
+    
+    
+         </div>
+         </body>   
+              
+          
+          
+          
+          
+       
+           
+               
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
